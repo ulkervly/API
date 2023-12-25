@@ -1,0 +1,17 @@
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\bin\Debug\net6.0\MyBiz.Business.deps.json
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\bin\Debug\net6.0\MyBiz.Business.dll
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\bin\Debug\net6.0\MyBiz.Business.pdb
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\bin\Debug\net6.0\MyBiz.Core.dll
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\bin\Debug\net6.0\MyBiz.Data.dll
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\bin\Debug\net6.0\MyBiz.Data.pdb
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\bin\Debug\net6.0\MyBiz.Core.pdb
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\obj\Debug\net6.0\MyBiz.Business.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\obj\Debug\net6.0\MyBiz.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\obj\Debug\net6.0\MyBiz.Business.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\obj\Debug\net6.0\MyBiz.Business.AssemblyInfo.cs
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\obj\Debug\net6.0\MyBiz.Business.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\obj\Debug\net6.0\MyBiz.Business.csproj.CopyComplete
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\obj\Debug\net6.0\MyBiz.Business.dll
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\obj\Debug\net6.0\refint\MyBiz.Business.dll
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\obj\Debug\net6.0\MyBiz.Business.pdb
+C:\Users\hp\Desktop\Yeni qovluq\MyBiz.Business\obj\Debug\net6.0\ref\MyBiz.Business.dll
