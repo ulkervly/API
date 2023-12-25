@@ -44,12 +44,12 @@
         },
         "compile": {
           "ref/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll": {
-            "related": ".xml;.pdb"
+            "related": ".pdb;.xml"
           }
         },
         "runtimeTargets": {
@@ -2023,23 +2023,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hp\\.nuget\\packages\\": {},
+    "C:\\Users\\II novbe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\Desktop\\Yeni qovluq\\MyBiz.Business\\MyBiz.Business.csproj",
+      "projectUniqueName": "C:\\Users\\II novbe\\Desktop\\API\\MyBiz.Business\\MyBiz.Business.csproj",
       "projectName": "MyBiz.Business",
-      "projectPath": "C:\\Users\\hp\\Desktop\\Yeni qovluq\\MyBiz.Business\\MyBiz.Business.csproj",
-      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\Desktop\\Yeni qovluq\\MyBiz.Business\\obj\\",
+      "projectPath": "C:\\Users\\II novbe\\Desktop\\API\\MyBiz.Business\\MyBiz.Business.csproj",
+      "packagesPath": "C:\\Users\\II novbe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\II novbe\\Desktop\\API\\MyBiz.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\II novbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2048,15 +2048,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\hp\\Desktop\\Yeni qovluq\\MyBiz.Data\\MyBiz.Data.csproj": {
-              "projectPath": "C:\\Users\\hp\\Desktop\\Yeni qovluq\\MyBiz.Data\\MyBiz.Data.csproj"
+            "C:\\Users\\II novbe\\Desktop\\API\\MyBiz.Data\\MyBiz.Data.csproj": {
+              "projectPath": "C:\\Users\\II novbe\\Desktop\\API\\MyBiz.Data\\MyBiz.Data.csproj"
             }
           }
         }

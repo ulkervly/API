@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MyBiz.Business.Extensions.Helper;
 using MyBiz.Core.Models;
 using MyBiz.Data.DAL;
 using MyBiz.DTOs;
@@ -48,25 +49,10 @@ namespace MyBiz.Controllers
 
         }
         [HttpPost]
-        public IActionResult Create([FromForm] EmployeeCreateDto dto, IFormFile image)
+        public IActionResult Create([FromForm] EmployeeCreateDto dto)
         {
            var emp=_mapper.Map<Employee>(dto);
-            if (image != null && image.Length > 0)
-            {
-                
-                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(image.FileName);
-                var filePath = Path.Combine(_environment.WebRootPath, "Employee", fileName);
-
-                
-                using (var fileStream = new FileStream(filePath, FileMode.Create))
-                {
-                    image.CopyTo(fileStream);
-                }
-
-               
-                string ImagePath = "C:\\Users\\hp\\Desktop\\Yeni qovluq\\MyBiz\\wwwroot\\uploads\\Employee" + fileName; 
-            }
-
+            emp.EmployeeImage = Helper.SaveFile(_environment.WebRootPath, "uploads/Employee",dto.ImageFile);
             emp.AddedDate = DateTime.UtcNow.AddHours(4);
             emp.UpdatedDate = DateTime.UtcNow.AddHours(4);
             
